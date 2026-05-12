@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>获奖证书</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            background-color: #ffffff;
+            color: #333;
+        }
+
+        /* 证书验证区域 */
+        .verify-section {
+            text-align: center;
+            padding: 20px 15px 10px;
+        }
+
+        .verify-text {
+            font-size: 14px;
+            color: #333;
+            margin-bottom: 5px;
+        }
+
+        .verify-link {
+            font-size: 14px;
+            color: #0066cc;
+            text-decoration: underline;
+            word-break: break-all;
+        }
+
+        /* 证书图片区域 */
+        .certificate-container {
+            padding: 10px 15px 30px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .certificate-placeholder {
+            width: 100%;
+            max-width: 800px;
+            aspect-ratio: 3 / 4;
+            background-color: #f5f5f5;
+            border: 1px solid #e0e0e0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #999;
+            font-size: 16px;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <!-- 证书验证信息 -->
+    <div class="verify-section">
+        <div class="verify-text">此证书为官方认证</div>
+        <div>
+            证书官方查询: <a href="#" class="verify-link">https://www.hopemath.world/certificate</a>
+        </div>
+    </div>
+
+    <!-- 证书图片占位 -->
+    <div class="certificate-container">
+        <div class="certificate-placeholder">
+            [证书图片位置]
+        </div>
+    </div>
+</body>
+</html>
